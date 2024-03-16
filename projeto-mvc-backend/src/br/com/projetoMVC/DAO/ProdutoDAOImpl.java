@@ -29,7 +29,7 @@ public class ProdutoDAOImpl implements GenericDAO {
 	public List<Object> listarTodos() {
 		
 		List<Object> lista = new ArrayList<Object>();
-		PreparedStatement stmt;
+		PreparedStatement stmt = null;
 		ResultSet rs = null;
 		String sql = "SELECT * FROM PRODUTO";
 		
