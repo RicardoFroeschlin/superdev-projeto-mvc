@@ -9,7 +9,7 @@ public class ConnectionFactory {
 	
 	public static final String PATH = "jdbc:postgresql://localhost:5432/db_superdev";
 	public static final String USER = "postgres";
-	public static final String PASSWORD = "postgre";
+	public static final String PASSWORD = "admin";
 	
 	public static Connection getConnection() throws Exception {
 		try {

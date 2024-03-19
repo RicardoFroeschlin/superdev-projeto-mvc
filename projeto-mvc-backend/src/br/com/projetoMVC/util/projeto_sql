@@ -1,6 +1,6 @@
 -- Declaração de tabelas
 
-CREATE TABLE PRODUTO9(
+CREATE TABLE PRODUTO(
 	id SERIAL, 
 	descricao VARCHAR(150) NOT NULL,
 	CONSTRAINT pk_produto PRIMARY KEY (id)
