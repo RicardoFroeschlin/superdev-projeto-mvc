@@ -59,7 +59,7 @@ public class ProdutoController {
 		} catch (Exception ex) {
 			System.out.println("Problemas na Controller para listar Produtos " + ex.getMessage());
 			ex.printStackTrace();
-			return null,
+			return null;
 		}
 	}
 	
