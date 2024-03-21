@@ -121,7 +121,8 @@ public class ProdutoDAOImpl implements GenericDAO {
 		try {
 			stmt = conn.prepareStatement(sql);
 			stmt.setString(1, produto.getDescricao());
-			stmt.setInt(1, produto.getId());
+			stmt.setInt(2, produto.getId());
+			stmt.execute();
 			return true;
 		} catch (SQLException ex) {
 			System.out.println("Erros na DAO ao alterar Produto! " + ex.getMessage());
